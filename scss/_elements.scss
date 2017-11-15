@@ -16,7 +16,7 @@
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 2px solid $navy;
+  border: 2px solid $primary;
   border-radius: 2px;
 }
 
@@ -47,7 +47,7 @@
 .onoffswitch-inner:before {
   content: "ON";
   padding-left: 10px;
-  background-color: $navy;
+  background-color: $primary;
   color: #FFFFFF;
 }
 
@@ -63,7 +63,7 @@
   width: 20px;
   margin: 0;
   background: #FFFFFF;
-  border: 2px solid $navy;
+  border: 2px solid $primary;
   border-radius: 2px;
   position: absolute;
   top: 0;
@@ -238,8 +238,8 @@
 }
 
 .fc-state-active {
-  background-color: $navy;
-  border-color: $navy;
+  background-color: $primary;
+  border-color: $primary;
   color: #ffffff;
 }
 
@@ -277,8 +277,8 @@
 .fc-agenda .fc-event-time,
 .fc-event a {
   padding: 4px 6px;
-  background-color: $navy; /* background color */
-  border-color: $navy; /* border color */
+  background-color: $primary; /* background color */
+  border-color: $primary; /* border color */
 }
 
 .fc-event-time, .fc-event-title {
@@ -394,8 +394,8 @@
 /* LIST GROUP */
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-  background-color: $navy;
-  border-color: $navy;
+  background-color: $primary;
+  border-color: $primary;
   color: #FFFFFF;
   z-index: 2;
 }
@@ -746,7 +746,7 @@ div.dt-button-info {
 }
 
 .pace .pace-progress {
-  background: $navy;
+  background: $primary;
   position: fixed;
   z-index: 2040;
   top: 0;
@@ -903,11 +903,11 @@ div.dt-button-info {
 }
 
 .form-control:focus, .single-line:focus {
-  border-color: $navy;
+  border-color: $primary;
 }
 
 .has-success .form-control, .has-success .form-control:focus {
-  border-color: $navy;
+  border-color: $primary;
 }
 
 .has-warning .form-control, .has-warning .form-control:focus {
@@ -919,7 +919,7 @@ div.dt-button-info {
 }
 
 .has-success .control-label {
-  color: $navy;
+  color: $primary;
 }
 
 .has-warning .control-label {
@@ -951,7 +951,7 @@ div.dt-button-info {
 }
 
 .noUi-connect {
-  background: none repeat scroll 0 0 $navy;
+  background: none repeat scroll 0 0 $primary;
   box-shadow: none;
 }
 
@@ -1592,11 +1592,11 @@ label.error {
 }
 
 .toast {
-  background-color: $navy
+  background-color: $primary
 }
 
 .toast-success {
-  background-color: $navy
+  background-color: $primary
 }
 
 .toast-error {
@@ -1636,7 +1636,7 @@ label.error {
 }
 
 .inspinia-notify.alert-success {
-  border-left: 6px solid $blue;
+  border-left: 6px solid $secondary;
 }
 
 .inspinia-notify.alert-danger {
@@ -1644,7 +1644,7 @@ label.error {
 }
 
 .inspinia-notify.alert-info {
-  border-left: 6px solid $navy;
+  border-left: 6px solid $primary;
 }
 
 /* Image cropper style */
@@ -1784,11 +1784,11 @@ a.forum-item-title:hover {
 }
 
 .forum-item.active .fa {
-  color: $navy;
+  color: $primary;
 }
 
 .forum-item.active a.forum-item-title {
-  color: $navy;
+  color: $primary;
 }
 
 @media (max-width: 992px) {
@@ -1990,7 +1990,7 @@ a.forum-item-title:hover {
 }
 
 .vertical-date small {
-  color: $navy;
+  color: $primary;
   font-weight: 400;
 }
 
@@ -2262,7 +2262,7 @@ a.forum-item-title:hover {
   position: absolute;
   left: 10px;
   border-radius: 3px;
-  background: $navy;
+  background: $primary;
   padding: 3px;
   color: white;
   cursor: pointer;
@@ -2374,7 +2374,7 @@ a.forum-item-title:hover {
 
 .slick-prev:before,
 .slick-next:before {
-  color: $navy !important;
+  color: $primary !important;
 }
 
 /* Payments */
@@ -2420,11 +2420,11 @@ a.forum-item-title:hover {
 
 .select2-container--default.select2-container--focus .select2-selection--single,
 .select2-container--default.select2-container--focus .select2-selection--multiple {
-  border-color: $navy;
+  border-color: $primary;
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: $navy;
+  background-color: $primary;
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field {
@@ -2445,7 +2445,7 @@ a.forum-item-title:hover {
 
 
 .ui-select-container.ui-select-bootstrap .ui-select-choices-row.active > a {
-  background-color: $navy;
+  background-color: $primary;
 }
 
 /* Tour */
@@ -2508,7 +2508,7 @@ body.tour-open .animated {
 
 .dropzone {
   min-height: 140px;
-  border: 1px dashed $navy;
+  border: 1px dashed $primary;
   background: white;
   padding: 20px 20px;
 
@@ -2553,14 +2553,14 @@ body.tour-open .animated {
 
       &.bg-success {
         color: #ffffff;
-        background-color: $blue;
-        border-color: $blue;
+        background-color: $secondary;
+        border-color: $secondary;
       }
 
       &.bg-primary {
         color: #ffffff;
-        background-color: $navy;
-        border-color: $navy;
+        background-color: $primary;
+        border-color: $primary;
       }
 
       &.bg-warning {

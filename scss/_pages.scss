@@ -389,12 +389,12 @@ ul.notes li div {
   color: #3d4d5d;
 }
 
-.category-list li a .text-navy {
-  color: $navy;
+.category-list li a .text-primary {
+  color: $primary;
 }
 
 .category-list li a .text-primary {
-  color: $blue;
+  color: $secondary;
 }
 
 .category-list li a .text-info {
@@ -592,7 +592,7 @@ a.compose-mail {
 }
 
 .file-list li a:hover {
-  color: $navy;
+  color: $primary;
 }
 
 .user-friends img {
@@ -724,12 +724,12 @@ dd.project-people {
 .faq-question {
   font-size: 18px;
   font-weight: 600;
-  color: $navy;
+  color: $primary;
   display: block;
 }
 
 .faq-question:hover {
-  color: darken($navy, 5%);
+  color: darken($primary, 5%);
 }
 
 .faq-answer {
@@ -974,7 +974,7 @@ dd.project-people {
 /* ISSUE TRACKER */
 
 .issue-tracker .btn-link {
-  color: $navy;
+  color: $primary;
 }
 
 table.issue-tracker tbody tr td {
@@ -1040,11 +1040,11 @@ table.issue-tracker tbody tr td {
 }
 
 .agile-list li.info-element {
-  border-left: 3px solid $blue;
+  border-left: 3px solid $secondary;
 }
 
 .agile-list li.success-element {
-  border-left: 3px solid $navy;
+  border-left: 3px solid $primary;
 }
 
 .agile-detail {
@@ -1146,14 +1146,14 @@ table.shoping-cart-table {
 
 .product-name:hover,
 .product-name:focus {
-  color: $navy;
+  color: $primary;
 }
 
 .product-price {
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
-  background-color: $navy;
+  background-color: $primary;
   padding: 6px 12px;
 
   position: absolute;
@@ -1303,7 +1303,7 @@ table.shoping-cart-table {
 }
 
 .vote-actions a {
-  color: $navy;
+  color: $primary;
   font-weight: 600;
 }
 
@@ -1338,7 +1338,7 @@ table.shoping-cart-table {
 }
 
 .vote-info a:hover {
-  color: $navy;
+  color: $primary;
 }
 
 .vote-icon {
@@ -1349,7 +1349,7 @@ table.shoping-cart-table {
 }
 
 .vote-icon.active {
-  color: $navy;
+  color: $primary;
 }
 
 body.body-small .vote-icon {
@@ -1363,4 +1363,3 @@ body.body-small .vote-icon {
 .lightBoxGallery img {
   margin: 5px
 }
-

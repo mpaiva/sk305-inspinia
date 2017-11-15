@@ -126,7 +126,7 @@ body.md-skin {
   }
 
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background: $navy;
+    background: $primary;
   }
 
   .navbar-top-links li {
@@ -319,7 +319,7 @@ body.md-skin {
   &.landing-page .navbar-default .navbar-nav > li > a:hover,
   &.landing-page .navbar-default .navbar-nav > li > a:focus {
     background: inherit;
-    color: $navy;
+    color: $primary;
   }
 
   &.landing-page.body-small .nav.navbar-right > li > a {
@@ -352,12 +352,12 @@ body.md-skin {
   &.top-navigation .nav .open > a,
   &.top-navigation .nav .open > a:hover,
   &.top-navigation .nav .open > a:focus {
-    color: $navy;
+    color: $primary;
     background: #ffffff;
   }
 
   &.top-navigation .nav > li.active a {
-    color: $navy;
+    color: $primary;
     background: #ffffff;
   }
 

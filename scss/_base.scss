@@ -451,7 +451,7 @@ img.circle-border {
   font-weight: 600;
   padding: 17px 20px;
   text-align: center;
-  background-color: $navy;
+  background-color: $primary;
 }
 
 .login-panel {
@@ -664,12 +664,12 @@ table.table-mail tr td {
 }
 
 .blue-bg, .bg-success {
-  background-color: $blue;
+  background-color: $secondary;
   color: #ffffff;
 }
 
-.navy-bg, .bg-primary {
-  background-color: $navy;
+.primary-bg, .bg-primary {
+  background-color: $primary;
   color: #ffffff;
 }
 
@@ -693,21 +693,21 @@ table.table-mail tr td {
 }
 
 .panel-primary {
-  border-color: $navy;
+  border-color: $primary;
 }
 
 .panel-primary > .panel-heading {
-  background-color: $navy;
-  border-color: $navy;
+  background-color: $primary;
+  border-color: $primary;
 }
 
 .panel-success {
-  border-color: $blue;
+  border-color: $secondary;
 }
 
 .panel-success > .panel-heading {
-  background-color: $blue;
-  border-color: $blue;
+  background-color: $secondary;
+  border-color: $secondary;
   color: #ffffff;
 }
 
@@ -742,7 +742,7 @@ table.table-mail tr td {
 }
 
 .progress-bar {
-  background-color: $navy;
+  background-color: $primary;
 }
 
 .progress-small, .progress-small .progress-bar {
@@ -758,12 +758,12 @@ table.table-mail tr td {
   margin-bottom: 0;
 }
 
-.progress-bar-navy-light {
+.progress-bar-primary-light {
   background-color: #3dc7ab;
 }
 
 .progress-bar-success {
-  background-color: $blue;
+  background-color: $secondary;
 }
 
 .progress-bar-info {
@@ -793,8 +793,8 @@ table.table-mail tr td {
 
 /* COLORS */
 
-.text-navy {
-  color: $navy;
+.text-primary {
+  color: $primary;
 }
 
 .text-primary {
@@ -802,7 +802,7 @@ table.table-mail tr td {
 }
 
 .text-success {
-  color: $blue;
+  color: $secondary;
 }
 
 .text-info {

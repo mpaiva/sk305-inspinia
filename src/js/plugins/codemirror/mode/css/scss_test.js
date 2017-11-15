@@ -21,10 +21,10 @@
     "[tag foo] { [property background]:[atom url]([string \'test.jpg\']) [keyword !important] }");
 
   MT('variable',
-    "[variable-2 $blue]:[atom #333]");
+    "[variable-2 $secondary]:[atom #333]");
 
   MT('variable_as_attribute',
-    "[tag foo] { [property color]:[variable-2 $blue] }");
+    "[tag foo] { [property color]:[variable-2 $secondary] }");
 
   MT('numbers',
     "[tag foo] { [property padding]:[number 10px] [number 10] [number 10em] [number 8in] }");
@@ -95,7 +95,7 @@
 
   MT('indent_parentheses',
      "[tag foo] {",
-     "  [property color]: [variable darken]([variable-2 $blue],",
+     "  [property color]: [variable darken]([variable-2 $secondary],",
      "    [number 9%]);",
      "}");
 
