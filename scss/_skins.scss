@@ -8,7 +8,7 @@
 // Main colors
 $skin-1-color: #0e9aef;
 $skin-1-nav-bg: #3e495f;
-$skin-1-a-color: #9ea6b9;
+$skin-1-a-color: $contrast;
 $skin-1-page-bg: #f4f6fa;
 
 // Custom style
@@ -32,6 +32,18 @@ $skin-1-page-bg: #f4f6fa;
   background-color: $skin-1-color;
   background-image: url('patterns/header-profile-skin-1.png');
 }
+
+.logo {
+  width: 143px;
+  height: 25px;
+  background-image: url(patterns/splash-logo.svg);
+  background-size: cover;
+  margin-top: 16px;
+}
+
+.welcome-message { color: $contrast;}
+
+.profile-element .img-circle { width: 60px; }
 
 .skin-1.mini-navbar .nav-second-level {
   background: $skin-1-nav-bg;
@@ -148,7 +160,7 @@ body.skin-1 {
 */
 
 // Main colors
-$skin-2-color: #23c6c8;
+$skin-2-color: $primary; /* #23c6c8 */
 $skin-2-nav-bg: #ededed;
 $skin-2-nav-top-bg: #213a53;
 

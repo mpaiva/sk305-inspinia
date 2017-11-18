@@ -6,9 +6,9 @@ $(function () {
 
             {
                 label: "Data 1",
-                backgroundColor: 'rgba(26,179,148,0.5)',
-                borderColor: "rgba(26,179,148,0.7)",
-                pointBackgroundColor: "rgba(26,179,148,1)",
+                backgroundColor: 'rgba(170,85,153,0.5)',
+                borderColor: "rgba(170,85,153,0.7)",
+                pointBackgroundColor: "rgba(170,85,153,1)",
                 pointBorderColor: "#fff",
                 data: [28, 48, 40, 19, 86, 27, 90]
             },{
@@ -39,9 +39,9 @@ $(function () {
             },
             {
                 label: "Data 2",
-                backgroundColor: 'rgba(26,179,148,0.5)',
-                borderColor: "rgba(26,179,148,0.7)",
-                pointBackgroundColor: "rgba(26,179,148,1)",
+                backgroundColor: 'rgba(170,85,153,0.5)',
+                borderColor: "rgba(170,85,153,0.7)",
+                pointBackgroundColor: "rgba(170,85,153,1)",
                 pointBorderColor: "#fff",
                 data: [28, 48, 40, 19, 86, 27, 90]
             }
@@ -62,7 +62,7 @@ $(function () {
                 300,140,200
             ],
             backgroundColor: [
-                "#a3e1d4", "#dedede", "#b5b8cf"
+                "#aa5599", "#dedede", "#b5b8cf"
             ],
             label: [
                 "My Radar chart"
@@ -86,7 +86,7 @@ $(function () {
         labels: ["App","Software","Laptop" ],
         datasets: [{
             data: [300,50,100],
-            backgroundColor: ["#a3e1d4","#dedede","#b5b8cf"]
+            backgroundColor: ["#aa5599","#dedede","#b5b8cf"]
         }]
     } ;
 
@@ -111,8 +111,8 @@ $(function () {
             },
             {
                 label: "My Second dataset",
-                backgroundColor: "rgba(26,179,148,0.2)",
-                borderColor: "rgba(26,179,148,1)",
+                backgroundColor: "rgba(90,62,100,0.2)",
+                borderColor: "rgba(90,62,100,1)",
                 data: [28, 48, 40, 19, 96, 27, 100]
             }
         ]

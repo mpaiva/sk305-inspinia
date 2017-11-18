@@ -16,7 +16,7 @@ $(function() {
     }, {
         label: "Blackberry",
         data: 52,
-        color: "#1ab394",
+        color: "#aa5599",
     }];
 
     var plotObj = $.plot($("#flot-pie-chart-devices"), data, {
@@ -59,7 +59,7 @@ $(function() {
     }, {
         label: "Safari",
         data: 52,
-        color: "#1ab394",
+        color: "#aa5599",
     }];
 
     var plotObj = $.plot($("#flot-pie-chart-browsers"), data, {
@@ -102,7 +102,7 @@ $(function() {
     }, {
         label: "Client 4",
         data: 52,
-        color: "#1ab394",
+        color: "#aa5599",
     }];
 
     var plotObj = $.plot($("#flot-pie-chart-sources"), data, {
@@ -146,7 +146,7 @@ $(function() {
     }, {
         label: "Carriers 4",
         data: 52,
-        color: "#1ab394",
+        color: "#aa5599",
     }];
 
     var plotObj = $.plot($("#flot-pie-chart-carriers"), data, {
@@ -181,7 +181,7 @@ $(function() {
     },{
         label: "Female",
         data: 50,
-        color: "#1ab394",
+        color: "#aa5599",
     }];
 
     var plotObj = $.plot($("#flot-pie-chart-gender"), data, {
@@ -224,7 +224,7 @@ $(function() {
     }, {
         label: "45/54",
         data: 37,
-        color: "#1ab394",
+        color: "#aa5599",
     }, {
         label: ">55",
         data: 15,
@@ -263,7 +263,7 @@ $(function() {
     }, {
         label: "Medium",
         data: 40,
-        color: "#1ab394",
+        color: "#aa5599",
     }, {
         label: "Low",
         data: 40,
@@ -298,7 +298,7 @@ $(function() {
     var data = [{
         label: "Business",
         data: 60,
-        color: "#1ab394",
+        color: "#aa5599",
     }, {
         label: "Private",
         data: 40,
@@ -345,7 +345,7 @@ $(function() {
     }, {
         label: "Education",
         data: 37,
-        color: "#1ab394",
+        color: "#aa5599",
     }, {
         label: "Other",
         data: 15,

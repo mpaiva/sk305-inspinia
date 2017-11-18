@@ -1,11 +1,17 @@
 
 // Basic Colors
 $primary: #f60;       // Primary color 23c6c8
+$contrast: #fff;
+$accent: #aa5599;
 $dark-gray: #f5f5f5;  // Default color
 $secondary: #666;       // Success color 1c84c6 23c6c8
-$lazur: #1c84c6;      // Info color 23c6c8
+$lazur: #5A3E64;      // Info color 23c6c8 1c84c6
 $yellow: #f8ac59;     // Warning color
 $red: #ED5565;        // Danger color
+$primary-graph: $accent;
+$secondary-graph: #5A3E64;
+
+$muted: #fff;
 
 // Various colors
 $text-color: #676a6c;   // Body text
@@ -15,7 +21,7 @@ $label-badge-color: #5E5E5E;
 $light-blue:#f3f6fb;
 
 // Typography
-$font-heading: Comfortaa, "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-heading: "Roboto Slab", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-body: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-body-size: 11pt;
 $font-body-weight: 200;

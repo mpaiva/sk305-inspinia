@@ -2,7 +2,7 @@ $(function() {
     var graph = new Rickshaw.Graph( {
         element: document.querySelector("#chart"),
         series: [{
-            color: '#1ab394',
+            color: '#aa5599',
             data: [
                 { x: 0, y: 40 },
                 { x: 1, y: 49 },
@@ -19,7 +19,7 @@ $(function() {
         stroke: true,
         series: [ {
             data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 20 }, { x: 4, y: 16 } ],
-            color: '#1ab394',
+            color: '#aa5599',
             stroke: '#17997f'
         }, {
             data: [ { x: 0, y: 22 }, { x: 1, y: 25 }, { x: 2, y: 38 }, { x: 3, y: 44 }, { x: 4, y: 46 } ],
@@ -35,7 +35,7 @@ $(function() {
         renderer: 'line',
         series: [ {
             data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 30 }, { x: 4, y: 32 } ],
-            color: '#1ab394'
+            color: '#aa5599'
         } ]
     } );
     graph3.render();
@@ -45,7 +45,7 @@ $(function() {
         renderer: 'line',
         series: [{
             data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 30 }, { x: 4, y: 32 } ],
-            color: '#1ab394'
+            color: '#aa5599'
         }, {
             data: [ { x: 0, y: 20 }, { x: 1, y: 24 }, { x: 2, y: 19 }, { x: 3, y: 15 }, { x: 4, y: 16 } ],
             color: '#d7d7d7'
@@ -58,7 +58,7 @@ $(function() {
         renderer: 'bar',
         series: [ {
             data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 30 }, { x: 4, y: 32 } ],
-            color: '#1ab394'
+            color: '#aa5599'
         } ]
     } );
     graph5.render();
@@ -69,7 +69,7 @@ $(function() {
         series: [
             {
                 data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 30 }, { x: 4, y: 32 } ],
-                color: '#1ab394'
+                color: '#aa5599'
             }, {
                 data: [ { x: 0, y: 20 }, { x: 1, y: 24 }, { x: 2, y: 19 }, { x: 3, y: 15 }, { x: 4, y: 16 } ],
                 color: '#d7d7d7'
@@ -95,7 +95,7 @@ $(function() {
                 { x: 9, y: 18 },
                 { x: 10, y: 16 }
             ],
-            color: '#1ab394'
+            color: '#aa5599'
         } ]
     } );
     graph7.render();

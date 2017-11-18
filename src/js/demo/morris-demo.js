@@ -16,7 +16,7 @@ $(function() {
         resize: true,
         lineWidth:4,
         labels: ['Value'],
-        lineColors: ['#1ab394'],
+        lineColors: ['#aa5599'],
         pointSize:5,
     });
 
@@ -38,7 +38,7 @@ $(function() {
         pointSize: 2,
         hideHover: 'auto',
         resize: true,
-        lineColors: ['#87d6c6', '#54cdb4','#1ab394'],
+        lineColors: ['#87d6c6', '#54cdb4','#aa5599'],
         lineWidth:2,
         pointSize:1,
     });
@@ -49,7 +49,7 @@ $(function() {
             { label: "In-Store Sales", value: 30 },
             { label: "Mail-Order Sales", value: 20 } ],
         resize: true,
-        colors: ['#87d6c6', '#54cdb4','#1ab394'],
+        colors: ['#87d6c6', '#54cdb4','#aa5599'],
     });
 
     Morris.Bar({
@@ -66,7 +66,7 @@ $(function() {
         labels: ['Series A', 'Series B'],
         hideHover: 'auto',
         resize: true,
-        barColors: ['#1ab394', '#cacaca'],
+        barColors: ['#aa5599', '#cacaca'],
     });
 
     Morris.Line({
@@ -83,7 +83,7 @@ $(function() {
         labels: ['Series A', 'Series B'],
         hideHover: 'auto',
         resize: true,
-        lineColors: ['#54cdb4','#1ab394'],
+        lineColors: ['#54cdb4','#aa5599'],
     });
 
 });

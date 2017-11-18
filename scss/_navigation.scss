@@ -5,7 +5,7 @@
 }
 
 .nav.navbar-right > li > a {
-  color: #999c9e;
+  color: $contrast;
 }
 
 .nav > li.active > a {
@@ -300,7 +300,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
 }
 
 .navbar-default .special_link a:hover {
-  background: #17987e !important;
+  background: $accent !important;
   color: white;
 }
 
@@ -348,7 +348,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
 }
 
 .navbar-fixed-top, .navbar-static-top {
-  background: $gray;
+  background: $primary;
 }
 
 .fixed-nav #wrapper {
@@ -561,4 +561,5 @@ body.canvas-menu nav.navbar-static-side {
 body.canvas-menu.mini-navbar nav.navbar-static-side {
   display: block;
   width: 220px;
+
 }
