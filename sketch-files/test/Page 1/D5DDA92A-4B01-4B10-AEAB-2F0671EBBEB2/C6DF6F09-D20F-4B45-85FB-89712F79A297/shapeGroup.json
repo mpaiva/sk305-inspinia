@@ -16,8 +16,8 @@
     "constrainProportions": true,
     "height": 161,
     "width": 161,
-    "x": 164,
-    "y": 165
+    "x": 0,
+    "y": 0
   },
   "hasClickThrough": false,
   "hasClippingMask": false,
@@ -85,13 +85,13 @@
           "aspectRatio": {
             "constant": 161,
             "enabled": 1,
-            "modelID": "constraint_40d2b050-e25d-41ae-8f9b-39b19b5f35a9",
+            "modelID": "constraint_026f5d25-e485-42c1-9985-6a3b6fba3fc5",
             "model_class": "ADModelConstraint",
             "model_version": 0.1,
             "multiplier": 161
           },
           "automatic": 1,
-          "modelID": "viewConstraints_a2950930-e3f5-401b-a1aa-2f11a995db4a",
+          "modelID": "viewConstraints_06e60003-a22f-4350-819d-13aede5529b1",
           "model_class": "ADModelViewConstraints",
           "model_version": 0.1,
           "scaleFactor": 1
