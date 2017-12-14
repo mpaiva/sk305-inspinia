@@ -1,6 +1,6 @@
 {
-  "_class": "page",
-  "do_objectID": "77face20-e0d9-11e7-92f4-01431fb26fcf",
+  "_class": "group",
+  "do_objectID": "7218D080-6687-473C-9D6C-F1159A071D44",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -13,19 +13,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 300,
-    "width": 300,
-    "x": 0,
-    "y": 0
+    "height": 138,
+    "width": 345,
+    "x": 395,
+    "y": 175
   },
-  "hasClickThrough": true,
-  "horizontalRulerData": {
-    "_class": "rulerData",
-    "base": -333,
-    "guides": [
-    ]
-  },
-  "includeInCloudUpload": true,
+  "hasClickThrough": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
@@ -33,16 +26,20 @@
   "layerListExpandedType": 0,
   "layers": [
     {
-      "class": "group",
-      "id": "7218D080-6687-473C-9D6C-F1159A071D44"
+      "class": "shapeGroup",
+      "id": "C6DDCF30-74A0-4B3C-816E-50AEC78A4F08"
     },
     {
-      "class": "symbolMaster",
-      "id": "D5DDA92A-4B01-4B10-AEAB-2F0671EBBEB2"
+      "class": "symbolInstance",
+      "id": "9F4E3AB2-A2FD-4034-A2FC-7F78C30FD251"
+    },
+    {
+      "class": "text",
+      "id": "40C4D3BB-45F8-4815-A674-0826F300D1B9"
     }
   ],
-  "name": "Page 1",
-  "nameIsFixed": false,
+  "name": "button",
+  "nameIsFixed": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
@@ -53,10 +50,10 @@
     "miterLimit": 10,
     "startDecorationType": 0
   },
-  "verticalRulerData": {
-    "_class": "rulerData",
-    "base": -265,
-    "guides": [
-    ]
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+      }
+    }
   }
 }
