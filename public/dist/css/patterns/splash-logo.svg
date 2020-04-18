@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="262px" height="47px" viewBox="0 0 262 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>splash-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="splash-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="27 0 38 0 18 47 7 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="7 0 18 0 -2 47 -13 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="47 0 58 0 38 47 27 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="67 0 78 0 58 47 47 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="87 0 98 0 78 47 67 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="107 0 118 0 98 47 87 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="127 0 138 0 118 47 107 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="147 0 158 0 138 47 127 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="167 0 178 0 158 47 147 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="187 0 198 0 178 47 167 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="207 0 218 0 198 47 187 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="227 0 238 0 218 47 207 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="247 0 258 0 238 47 227 47"></polygon>
+        <polygon id="stripe" fill-opacity="0.2" fill="url(#linearGradient-1)" points="267 0 278 0 258 47 247 47"></polygon>
+        <text id="cross.team" fill="url(#linearGradient-2)" font-family="Roboto-Black, Roboto" font-size="53" font-weight="700" letter-spacing="-1.28918919">
+            <tspan x="4" y="46">cross.team</tspan>
+        </text>
+    </g>
+</svg>

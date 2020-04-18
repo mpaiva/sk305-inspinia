@@ -1,0 +1,56 @@
+
+// Basic Colors
+$primary:       #FF6600; // #233cc8; //FF00FA - Primary color 23c6c8 blueberry #038eff admiral #124ed6 koi #ff5024
+$contrast:      #ffffff;
+$accent:        #ff6600;
+$dark-gray:     #f5f5f5; // Default color
+$secondary:     #666666; // Success color 1c84c6 23c6c8
+$lazur:         #5A3E64; // Info color 23c6c8 1c84c6
+$yellow:        #f8ac59; // Warning color
+$red:           #ED5565; // Danger color
+$primary-graph:   $accent;
+$secondary-graph: $primary;
+
+
+$muted:             #ffffff;
+
+// Various colors
+$text-color:        #676a6c;   // Body text
+$gray:              #f3f3f4;   // Background wrapper color
+$light-gray:        #D1DADE;   // Default label, badge
+$label-badge-color: #5E5E5E;
+$light-blue:        #f3f6fb;
+
+// Typography
+$font-heading: "Roboto Slab", "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-body: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-body-size: 11pt;
+$font-body-weight: 200;
+$font-body-color: #333 ;
+
+
+// Spiner color and margin
+$spin-color: $primary;
+$spin-margin: 0 auto;
+
+
+
+// IBOX colors ( default panel colors)
+$border-color: #e7eaec;     // IBox border
+$ibox-title-bg:#ffffff;     // IBox Background header
+$ibox-content-bg:#ffffff;   // IBox Background content
+
+//Sidebar width
+$sidebar-width: 220px;
+
+// Boxed layout width
+$boxed-width: 1200px;
+$boxed-background: url('patterns/shattered.png');
+
+//Border radius for buttons
+$btn-border-radius: 3px;
+
+//Navigation
+$nav-bg: #2F4050;
+$nav-profile-pattern: url("patterns/header-profile.png");
+$nav-text-color: #fff;
