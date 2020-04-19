@@ -1,0 +1,80 @@
+// ==========================================
+// COLORS
+// ==========================================
+
+// Branding Colors
+$sk305-primary:                   hsl(165, 65%, 30%); //hsl(300, 82%, 46%);
+$sk305-primary-darker:            darken($sk305-primary, 10); // hsl(161, 73%, 19%);
+$sk305-primary-lighter:           lighten($sk305-primary, 10); // hsl(167, 42%, 54%);
+
+// Accent Colors
+$sk305-secondary:                 hsl(204, 81%, 39%);
+$sk305-secondary-darker:          hsl(204, 81%, 31%);
+$sk305-secondary-lighter:         hsl(204, 51%, 56%);
+
+// Neutral Colors
+$sk305-surface-light:             #FFFFFF;
+$sk305-surface-light-darker:      #F5F5F5;
+
+$sk305-surface-dark:              #4A4A4A;
+$sk305-surface-dark-darker:       #323232;
+
+$sk305-surface-disabled-on-light: rgba(0,0,0, 0.03);
+$sk305-surface-disabled-on-dark:  rgba(255,255,255, 0.2);
+
+// Functional Colors
+$sk305-success:                   hsl(165, 65%, 30%);
+$sk305-warning:                   hsl(34, 100%, 41%);
+$sk305-danger:                    hsl(354, 90%, 45%);
+$sk305-info:                      #DC0C22;
+
+
+
+// ==========================================
+// TYPOGRAPHY
+// ==========================================
+
+// Text Colors on Light
+$sk305-on-light-text:                    rgba(0,0,0, 0.87);
+$sk305-on-dark-text:                     rgba(255,255,255, 1);
+
+// Font Typeface 
+$sk305-font-family:                   'Roboto';
+$sk305-font-family-condensed:         'Roboto Condensed';
+$sk305-font-family-mono:              'Roboto Mono';
+
+// Text Size
+$sk305-text-size-1:                   .875rem;
+$sk305-text-size-2:                   1rem;
+$sk305-text-size-3:                   1.125rem;
+$sk305-text-size-4:                   1.25rem;
+$sk305-text-size-5:                   1.4375rem;
+$sk305-text-size-6:                   1.625rem;
+$sk305-text-size-7:                   2rem;
+$sk305-text-size-8:                   2.5625rem;
+$sk305-text-size-9:                   3.1875rem;
+
+// Text Line Height
+$sk305-line-height-reading:           1.5;
+$sk305-line-height-compact:           1.3; 
+
+// Font Weight
+$sk305-font-weight-light:             300;
+$sk305-font-weight-regular:           400;
+$sk305-font-weight-medium:            500;
+$sk305-font-weight-heavy:             700;
+$sk305-font-weight-black:             900;
+
+// Relative Spacing
+$sk305-spacing-xxxxs:             0.063rem;
+$sk305-spacing-xxxs:              0.125rem;
+$sk305-spacing-xxs:               0.25rem;
+$sk305-spacing-xs:                0.50rem;
+$sk305-spacing-s:                 1rem;
+$sk305-spacing-m:                 1.5rem;
+$sk305-spacing-l:                 2rem;
+$sk305-spacing-xl:                2.5rem;
+$sk305-spacing-xxl:               3rem;
+$sk305-spacing-xxxl:              3.5rem;
+$sk305-spacing-touch:             2.75rem;
+

@@ -1,6 +1,7 @@
+@import "tokens";
 
 // Basic Colors
-$primary:       #FF6600; // #233cc8; //FF00FA - Primary color 23c6c8 blueberry #038eff admiral #124ed6 koi #ff5024
+$primary:       hsl(165, 65%, 30%);  // #FF6600; // #233cc8; //FF00FA - Primary color 23c6c8 blueberry #038eff admiral #124ed6 koi #ff5024
 $contrast:      #ffffff;
 $accent:        #ff6600;
 $dark-gray:     #f5f5f5; // Default color
@@ -10,6 +11,7 @@ $yellow:        #f8ac59; // Warning color
 $red:           #ED5565; // Danger color
 $primary-graph:   $accent;
 $secondary-graph: $primary;
+$primary-button:  $sk305-primary; // hsl(204, 81%, 39%);
 
 
 $muted:             #ffffff;
