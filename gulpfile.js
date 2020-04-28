@@ -17,7 +17,7 @@ var paths = {
 		www: 'public/dist',
 	},
 	src: {
-		root:       'public/dist',
+		root:       'public/src',
 		html:       'public/src/**/*.html',
 		css:        'public/dist/css/*.css',
 		js:         'public/src/js/*.js',
@@ -27,12 +27,22 @@ var paths = {
 	},
 	dist: {
 		root:       'public/dist',
+		html:       'public/dist',
 		css:        'public/dist/css',
 		js:         'public/dist/js',
 		imgs:       'public/dist/img',
 		vendors:    'public/dist/vendors',
 	},
 };
+
+// Compile HTML
+gulp.task('html', () => {
+	return gulp
+		.src(paths.src.html)
+		.pipe(gulp.dest(paths.dist.html))
+		.pipe(browserSync.stream());
+});
+
 
 // Compile SCSS
 gulp.task('sass', () => {
@@ -44,7 +54,7 @@ gulp.task('sass', () => {
 			}).on('error', sass.logError),
 		)
 		.pipe(autoprefixer())
-		.pipe(gulp.dest(paths.src.root + '/css'))
+		.pipe(gulp.dest(paths.dist.root + '/css'))
 		.pipe(browserSync.stream());
 });
 
@@ -133,6 +143,7 @@ gulp.task('watch', () => {
 	gulp.watch(paths.src.scss, gulp.series('sass'));
 	// gulp.watch(paths.src.css, gulp.series('sass'));
 	gulp.watch(paths.src.js, gulp.series('js'));
+	gulp.watch(paths.src.html, gulp.series('html'));
 	gulp.watch(paths.src.html).on('change', browserSync.reload);
 });
 
